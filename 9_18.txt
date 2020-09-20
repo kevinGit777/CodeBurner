@@ -1,0 +1,9 @@
+Problem A
+Canonical Coin Systems
+A useful fact (due to Dexter Kozen and Shmuel Zaks) is that if S is non-canonical, 
+then the smallest counterexample is less than the sum of the two largest denominations.
+
+for number from 0 to less than sum of two lergest num 
+find greedy algorithm and possible optimal and than compare them
+
+

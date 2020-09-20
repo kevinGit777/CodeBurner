@@ -1,0 +1,25 @@
+WEEK 9/7
+DP
+
+Process:
+1. Establish optimal substructure property
+2. Find your base case
+3. Store your base case (this is typically done in an array or ma trix, but
+there are other ways)
+4. Decide the significance of your storage indices (for example, dp[n] is
+equivalent to the answer of a fib(n) call. Sometimes you will have a
+multi-dimensional array, with row and column each representing a
+different parameter)
+5. Build up to your larger answer, storing smaller ones as you go as not
+to recalculate them later, and ultimately return your big answer
+
+Helpful if first write out the recusive definition.
+
+If the goal need to reached at turn K, then goal - possible ways need to be reached at turn K-1.
+ 
+• Try to think of optimal substructure property
+• What is the base case?
+• What is the row/column significance?
+• recursive denfinition?
+
+Parallel Matrix / Matrix of Tuples(Object contain the element and the value)
